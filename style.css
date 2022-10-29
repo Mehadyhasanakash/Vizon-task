@@ -1,8 +1,9 @@
 *{
-    padding: 0%;
+    
     margin: 0%;
     box-sizing: border-box;
     background-color: #454545;
+    padding: 0%;
 }
 
 .topnav {
@@ -34,3 +35,32 @@
   .topnav .icon {
     display: none;
   }
+
+  /* logo */
+  .logo{
+    font-size: 2rem;
+    color: white;
+  }
+
+  /* Hedding */
+  .headding{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+  }
+
+  /* main section */
+  /* grid */
+
+  .grid-culomn{
+    display: grid;
+    grid-template-columns: repeat(3, 500px 1fr);
+    grid-gap: 10px;
+  }
+
+  .grid-section{
+    display: flex;
+
+  }
+  
